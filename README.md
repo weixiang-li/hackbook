@@ -1,9 +1,30 @@
+# 小说采集器
+
+小说爱好者，下载到本地阅读
+
+## 使用说明
+
+安装 nodejs
+
+添加国内源 cnpm
+
+> npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+编译
+
+> 双击build.bat方法，自动编译运行
+
 # 在chrome浏览器添加书签执行JS
 
-添加书签如下
+点击书签，添加提取的正则表达式
+<p hidden align="center">
+  <img src="/weixiang-li/hackbook/blob/main/screenshot/1.png?raw=true" width="520" />
+</p>
 
-var s=document.createElement('script');s.type='text/javascript';s.src='https://github.com/weixiang-li/hackbook/blob/main/dist/hackbook.umd.js';document.head.appendChild(s);
-
+等待进度条
+<p hidden align="center">
+  <img src="/weixiang-li/hackbook/blob/main/screenshot/2.png?raw=true" width="520" />
+</p>
 
 # Vue 3 + Vite
 

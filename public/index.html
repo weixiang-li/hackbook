@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>
+    hackbook
+  </title>
+</head>
+
+<body>
+    <h3>使用书签栏工具</h3>
+    <a style="display: inline-block; height: 50px; font-size: 0; width: 250px; background: url(bookmark.webp);"
+     onclick="alert('请将此链接拖拽到书签栏'); return false;"
+      href="javascript:(function(){try{var a=document.createElement('SCRIPT');a.type='text/javascript',a.src='http://localhost/hackbook.umd.js',a.charset='utf-8',document.body.appendChild(a)}catch(b){alert(b)}})()">hackbook</a>
+    <script type="text/javascript">
+        document.querySelector('a').href = `javascript:(function(){try{var a=document.createElement('SCRIPT');a.type='text/javascript',a.src='` + window.location.origin + `/hackbook.umd.js',a.charset='utf-8',document.body.appendChild(a)}catch(b){alert(b)}})()`;
+    </script>
+</body>
+
+</html>

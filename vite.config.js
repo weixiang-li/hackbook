@@ -13,6 +13,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
       name: 'hackbook',
+      formats: ['umd'],
       fileName: (format) => `hackbook.${format}.js`
     },
     cssCodeSplit: true,
