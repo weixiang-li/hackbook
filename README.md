@@ -18,12 +18,12 @@
 
 点击书签，添加提取的正则表达式
 <p hidden align="center">
-  <img src="/weixiang-li/hackbook/blob/main/screenshot/1.png?raw=true" width="520" />
+  <img src="https://raw.githubusercontent.com/weixiang-li/hackbook/main/screenshot/1.png" width="520" />
 </p>
 
 等待进度条
 <p hidden align="center">
-  <img src="/weixiang-li/hackbook/blob/main/screenshot/2.png?raw=true" width="520" />
+  <img src="https://raw.githubusercontent.com/weixiang-li/hackbook/main/screenshot/2.png" width="520" />
 </p>
 
 # Vue 3 + Vite
