@@ -46,7 +46,7 @@ export default {
           for (let i = 0; i < el.children.length; i++) {
             txt.push(el.children[i].innerText)
           }
-          let txt = txt.filter(item => item).map(item => item.trim()).filter(item => item)
+          txt = txt.filter(item => item).map(item => item.trim()).filter(item => item)
           if (txt.length) {
             this.value.text = txt
           }
