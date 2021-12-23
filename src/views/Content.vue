@@ -41,9 +41,12 @@ export default {
         this.value.text = el.innerText.split('\n')
           .map(item => item.trim()).filter(item => item)
         if (this.value.text.length == 1 && el.children.length) {
-          let txt = el.children.filter(item => item.item.innerText)
-            .map(item => item.innerText.trim())
-            .filter(item => item)
+          console.log(el, el.innerText, el.children)
+          let txt = []
+          for (let i = 0; i < el.children.length; i++) {
+            txt.push(el.children[i].innerText)
+          }
+          let txt = txt.filter(item => item).map(item => item.trim()).filter(item => item)
           if (txt.length) {
             this.value.text = txt
           }
